@@ -15,3 +15,10 @@
 1324 `算法2-2 有序线性表的有序合并` [算法2-2 有序线性表的有序合并](http://codeup.cn/problem.php?id=1324)
 
 1325 `算法2-3~2-6 Big Bang` [算法 2-3~2-6](http://codeup.cn/problem.php?id=1325)
+
+1329 `算法2-23:一元多项式加法` [算法2-23](http://codeup.cn/problem.php?id=1329)
+
+1330 `算法3-1 八进制数` [算法3-1 八进制数](http://codeup.cn/problem.php?id=1330)
+
+1741 `算法3-2 行编辑程序` [算法3-2 行编辑程序](http://codeup.cn/problem.php?id=1741)
+
