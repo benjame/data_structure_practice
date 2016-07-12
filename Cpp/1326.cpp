@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <cstdio>
 #include <cstdlib>
 
@@ -61,7 +61,7 @@ Status ListDelete_Sq(SqList &L, int i, ElemType &e) {
     p = &(L.elem[i - 1]); //p为被删除元素的位置
     e = *p;
     q = L.elem + L.length - 1;
-    for (++p; p < q; ++p)
+    for (++p; p <= q; ++p)
         *(p - 1) = *p;
     --L.length;
     return OK;
@@ -82,11 +82,9 @@ int LocateElem_Sq(SqList L, ElemType e, Status (*compare) (ElemType, ElemType)) 
         return 0;
 }
 
-void ListShow(SqList L)
-{
+void ListShow(SqList L) {
     int i;
-    for (i = 0; i < L.length; i++)
-    {
+    for (i = 0; i < L.length; i++) {
         if (i)
             printf(" ");
         printf("%s", L.elem[i].name);
@@ -100,35 +98,32 @@ Status compare(ElemType e1, ElemType e2) {
 
 int main(int argc, char *argv[]) {
     SqList namelist;
-    InitList(&namelist);
-    char strInstruct[10];
+    InitList_Sq(namelist);
+    char strInstruct[35];
     int pos;
     ElemType e;
 
     while (~scanf("%s", strInstruct)) {
         if (!strcmp(strInstruct, "insert")) {
             scanf("%d%s", &pos, e.name);
-            ListInsert(&namelist, pos, e);
+            ListInsert_Sq(namelist, pos, e);
         }
         else if (!strcmp(strInstruct, "show")) {
             ListShow(namelist);
         }
         else if (!strcmp(strInstruct, "delete")) {
             scanf("%s", e.name);
-            pos = LocateElem(namelist, e, cmp);
-            ListDelete(&namelist, pos, &e);
+            pos = LocateElem_Sq(namelist, e, compare);
+//            cout << pos << endl;
+            ListDelete_Sq(namelist, pos, e);
+//            cout << e.name << endl;
         }
         else if (!strcmp(strInstruct, "search")) {
             scanf("%s", e.name);
-            printf("%d\n", LocateElem(namelist, e, cmp));
+            printf("%d\n", LocateElem_Sq(namelist, e, compare));
         }
     }
     return 0;
 }
-
-
-
-
-
 
 
