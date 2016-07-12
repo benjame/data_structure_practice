@@ -130,10 +130,10 @@ void Union(SqList *La, SqList Lb) /* 算法2.1 */
 }
 
 Status reverse(SqList *L) {
-    
+
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     int n, m, a[105], b[105], cas = 0;
     while (~scanf("%d", &n)) {
         int j;
