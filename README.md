@@ -18,6 +18,8 @@
 
 1329 `算法2-23:一元多项式加法` [算法2-23](http://codeup.cn/problem.php?id=1329)
 
+#### 栈、队列、数组
+
 1330 `算法3-1 八进制数` [算法3-1 八进制数](http://codeup.cn/problem.php?id=1330)
 
 1741 `算法3-2 行编辑程序` [算法3-2 行编辑程序](http://codeup.cn/problem.php?id=1741)
