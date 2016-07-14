@@ -1,14 +1,12 @@
 # Data_structure_practice
 
-![Language](https://img.shields.io/badge/language-Python%20%2F%20C++%2011-orange.svg)  ![](https://img.shields.io/crates/l/rustc-serialize.svg)
+![Language](https://img.shields.io/badge/language-Python%20%2F%20C++%2011-orange.svg)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
 
 ### Record some codes in my data_structure learning.These codes  were tested in [数据结构高分笔记](http://codeup.cn/problemset.php?search=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%AB%98%E5%88%86%E7%AC%94%E8%AE%B0).
 
 ### Problem Num:
 
 #### 线性表
-
-1102 `迷宫问题` [迷宫问题](http://codeup.cn/problem.php?id=1102)
 
 1323 `算法2-1：集合Union`  [集合Union](http://codeup.cn/problem.php?id=1323)
 
@@ -24,4 +22,15 @@
 
 1741 `算法3-2 行编辑程序` [算法3-2 行编辑程序](http://codeup.cn/problem.php?id=1741)
 
+1102 `迷宫问题` [迷宫问题](http://codeup.cn/problem.php?id=1102)
+
+1742 `迷宫` [迷宫](http://codeup.cn/problem.php?id=1742)
+
+1743 `表达式求值` [表达式求值](http://codeup.cn/problem.php?id=1742)
+
+1744 `n阶Hanoi塔问题` [n阶Hanoi塔问题](http://codeup.cn/problem.php?id=1744)
+
+1745 `银行排队` [银行排队](http://codeup.cn/problem.php?id=1745)
+
+1909 `堆栈的使用` [堆栈的使用](http://codeup.cn/problem.php?id=1909)
 
