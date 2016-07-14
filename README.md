@@ -14,7 +14,15 @@
 
 1325 `算法2-3~2-6 Big Bang` [算法 2-3~2-6](http://codeup.cn/problem.php?id=1325)
 
+1326 `链表的基本操作` [链表的基本操作](http://codeup.cn/problem.php?id=1326)
+
+1327 `静态链表` [静态链表](http://codeup.cn/problem.php?id=1327)
+
+1328 `双向循环链表` [双向循环链表](http://codeup.cn/problem.php?id=1328)
+
 1329 `算法2-23:一元多项式加法` [算法2-23](http://codeup.cn/problem.php?id=1329)
+
+1787 `求最大值` [求最大值](http://codeup.cn/problem.php?id=1787)
 
 #### 栈、队列、数组
 
@@ -33,4 +41,3 @@
 1745 `银行排队` [银行排队](http://codeup.cn/problem.php?id=1745)
 
 1909 `堆栈的使用` [堆栈的使用](http://codeup.cn/problem.php?id=1909)
-
