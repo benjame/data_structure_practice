@@ -1,7 +1,7 @@
 #include <string>
-#include <cstdio> /* EOF(=^Z或F6),NULL */
-#include <cstdlib> /* atoi() */
-#include <cmath> /* floor(),ceil(),abs() */
+#include <cstdio> 
+#include <cstdlib> 
+#include <cmath> 
 using namespace std;
 
 #define TRUE 1
