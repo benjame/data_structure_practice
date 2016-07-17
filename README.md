@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20C++%2011-orange.svg)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
 
-### Record some codes in my data_structure learning.These codes  were tested in [数据结构高分笔记](http://codeup.cn/problemset.php?search=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%AB%98%E5%88%86%E7%AC%94%E8%AE%B0).
+### 这个Repository记录我在学习『数据结构高分笔记』时完成书籍推荐的编程题时写下的代码，代码均在 [数据结构高分笔记](http://codeup.cn/problemset.php?search=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%AB%98%E5%88%86%E7%AC%94%E8%AE%B0)中测试通过。
 
 > 解题顺序，先读题，理解题目用到的核心算法代码，根据题目中给出的核心代码中用到函数逐步去补充。主函数的编写：仔细读输入/输出示例，搞清楚输入输出格式，考虑编写。
 
